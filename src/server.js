@@ -28,7 +28,7 @@ function verifyToken(req, res, next) {
     }
   });
 }
-
+// test comment
 function verifyUserRole(req, res, next) {
   const authHeader = req.headers['authorization'];
   const token = authHeader && authHeader.split(' ')[1];
