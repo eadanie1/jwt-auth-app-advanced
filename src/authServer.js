@@ -23,7 +23,7 @@ async function hashPasswords() {
   }
   console.log('Passwords hashed successfully');
 }
-
+// passwords hashed per above
 // hashPasswords().then();
 
 export function generateAccessToken(user) {
